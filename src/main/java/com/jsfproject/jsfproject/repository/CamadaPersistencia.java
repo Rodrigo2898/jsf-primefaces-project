@@ -40,10 +40,10 @@ public class CamadaPersistencia {
             empresa.setRamoAtivitdade(ramoAtivitdadeList.get(0));
         } else {
             System.out.println("A lista ramoAtivitdadeList está vazia. Definindo um RamoAtivitdade padrão.");
-            RamoAtivitdade ramoAtivitdadePadrao = new RamoAtivitdade();
-            ramoAtivitdadePadrao.setId(1L);
-            ramoAtivitdadePadrao.setDescricao("TESTE");
-            empresa.setRamoAtivitdade(ramoAtivitdadePadrao);
+//            RamoAtivitdade ramoAtivitdadePadrao = new RamoAtivitdade();
+//            ramoAtivitdadePadrao.setId(1L);
+//            ramoAtivitdadePadrao.setDescricao("TESTE");
+//            empresa.setRamoAtivitdade(ramoAtivitdadePadrao);
         }
 
         // Salvando empresa
